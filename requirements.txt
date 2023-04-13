@@ -1,0 +1,11 @@
+streamlit
+pandas
+spotify
+polarplot
+songrecommendations
+matplotlib
+numpy
+seaborn 
+requests
+base64
+PIL
