@@ -13,7 +13,7 @@ SPOTIPY_CLIENT_SECRET = '25e62057093f4107b3a9dcb7e789781c'
 auth_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
 sp = spotipy.Spotify(auth_manager=auth_manager)
 
-st.header('Rockstar Sotify App (Streamlit)')
+st.header('Rockstar Spotify App (Streamlit)')
 
 search_choices = ['Song/Track', 'Artist', 'Album']
 search_selected = st.sidebar.selectbox("Your search choice please: ", search_choices)
